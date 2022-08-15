@@ -5,8 +5,8 @@ RUN mkdir /build
 WORKDIR /build
 
 RUN export GO1111MODULE=on
-RUN go get github.com/adminTurnedDevOps/GoWebAPI/main
-RUN cd /build && git close https://github.com/AdminTurnedDevOps/GoWebAPI.git
+RUN go install github.com/cvelosomg/go_1/main
+RUN cd /build && git close https://github.com/cvelosomg/go_1.git
 
 EXPOSE 8080
 
